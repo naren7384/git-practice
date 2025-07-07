@@ -38,6 +38,12 @@ resource "azurerm_resource_group" "rg4" {
     location = "Central US"
 }
 
+ resource "azurerm_resource_group" "rg8" {
+    name     = "rg_rakesh"
+
+    location = "West US"
+  }
+
 resource "azurerm_virtual_network" "vnet" {
     name                = "myVnet"
     address_space       = ["10.0.0.0/16"]
