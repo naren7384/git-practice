@@ -9,10 +9,10 @@ resource "azurerm_resource_group" "rg3" {
   location = "East US"
 }
 
-resource "azurerm_resource_group" "rg4" {
-    name     = "rg_narendra4"
-  location = "East US"
-}
+# resource "azurerm_resource_group" "rg4" {
+#     name     = "rg_narendra4"
+#   location = "East US"
+# }
 
 
 
