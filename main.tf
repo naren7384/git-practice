@@ -27,11 +27,7 @@ resource "azurerm_resource_group" "rg4" {
     location = "West US"
 }
 
-  resource "azurerm_resource_group" "rg7" {
-    name     = "rg_narendra7"
 
-    location = "West US"
-  }
   resource "azurerm_resource_group" "rg6" {
     name     = "rg_narendra6"
 
